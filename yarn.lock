@@ -1280,6 +1280,11 @@ json5@^1.0.1:
     array-includes "^3.1.5"
     object.assign "^4.1.2"
 
+korean-random-words@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/korean-random-words/-/korean-random-words-1.0.3.tgz#cf5bb8c54aac9e716686d98e9f5b0704d3bcf181"
+  integrity sha512-LJk41qDWDzZ2QUftVaeG6Y1NJPT3DM4LR0QLOrJGaOH1Cv2A9hYDI2+XESDhThdAmD07gW09oDOiZ8RJRqSQCA==
+
 language-subtag-registry@~0.3.2:
   version "0.3.22"
   resolved "https://registry.npmjs.org/language-subtag-registry/-/language-subtag-registry-0.3.22.tgz"
@@ -2006,10 +2011,23 @@ use-sync-external-store@1.1.0:
   resolved "https://registry.npmjs.org/use-sync-external-store/-/use-sync-external-store-1.1.0.tgz"
   integrity sha512-SEnieB2FPKEVne66NpXPd1Np4R1lTNKfjuy3XdIoPQKYBAFdzbzSZlSn1KJZUiihQLQC5Znot4SBz1EOTBwQAQ==
 
+use-todo@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/use-todo/-/use-todo-1.0.1.tgz#7ff2ede403fb58c01af9b1dc669a37aa6f2d5a70"
+  integrity sha512-zZnnAksnfVmkyMuwlLVjl7KQZmEZEajz6lxrfWmOwBDZkE0+CP9AQ9+UgsOZBc9Jh+Dp4gpUROX6YzImiZa/ww==
+  dependencies:
+    korean-random-words "^1.0.3"
+    uuid "^8.3.2"
+
 util-deprecate@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz"
   integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
+
+uuid@^8.3.2:
+  version "8.3.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
+  integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
 
 v8-compile-cache@^2.0.3:
   version "2.3.0"
